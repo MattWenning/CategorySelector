@@ -1,0 +1,55 @@
+$Color1: #d92322;
+#dropdown{
+	font-family: Arial;
+	color: gray;
+	font-size: 20px;
+	width: 350px;
+
+	.catMasterBox{
+		height: 14px;
+	    width: 14px;
+	    border: 2px solid $Color1;
+	    font-size: 14px;
+	    color: $Color1;
+	    float:left;
+	    text-align: center;
+	    vertical-align: middle;
+	    margin: 5px 4px 5px 0;
+	    font-weight: bold;
+	    padding: 0 0 1px 0;
+	    cursor: hand;
+	}
+	.sub{
+		display: none;
+	}
+
+}
+.Level1 {
+	cursor: hand;
+	cursor: pointer;
+	border-bottom: 1px solid #d8d8d8;
+
+}
+.level, .level2{
+		font-size: 12px;
+		margin: 0 0 0 10px;
+		cursor: pointer;
+		cursor: hand;
+		border-bottom: 1px solid #d8d8d8;
+}
+level-main {
+	border-bottom: 2px solid red;
+	height: 100px;
+}
+/* From HTML 5 BoilerPlate */
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
